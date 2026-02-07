@@ -128,7 +128,7 @@ export default function page() {
                                     <p className="text-slate-700 font-medium">{userData.seat}</p>
 
                                 </div>
-                                <QRcode text={`http://192.168.1.107:3000/member/[${id}]`} size={100} />
+                                <QRcode text={`https://jibd.vercel.app/member/[${id}]`} size={100} />
 
                             </div>
 
