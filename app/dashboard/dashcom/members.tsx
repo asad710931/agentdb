@@ -85,7 +85,7 @@ export default function members() {
                                 }>X</button>
                             </td>
                             <td className="w-1/4">
-                                <a href={`http://192.168.1.107:3000/member/[${member.unique_ID}]`} target='_blank' className="bg-blue-500 text-white px-4 py-1 rounded mr-2">View</a>
+                                <a href={`https://jibd.vercel.app/member/[${member.unique_ID}]`} target='_blank' className="bg-blue-500 text-white px-4 py-1 rounded mr-2">View</a>
                             </td>
                             <td className="w-1/4">
                                 <button onClick={() => { }} className="bg-green-500 text-white px-4 py-1 rounded mr-2">Manage</button>
