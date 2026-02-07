@@ -48,7 +48,7 @@ const Dashboard = () => {
         <div className="flex-1 overflow-scroll p-8">
           <div className="flex items-center justify-between mb-8">
             <h1 className="text-2xl font-semibold"> Under Construction</h1>
-            <a href={`http://192.168.1.107:3000/admin/form`} target='_blank' className="bg-green-500 text-white px-4 py-1 rounded mr-2">Add a New Member</a>
+            <a href={`https://jibd.vercel.app/admin/form`} target='_blank' className="bg-green-500 text-white px-4 py-1 rounded mr-2">Add a New Member</a>
           </div>
 
           {/* Stats Grid */}
