@@ -19,7 +19,7 @@ export default function Form() {
 
         const fetchUnion = async () => {
             try {
-                const response = await fetch('http://192.168.1.107:3000/api/union');
+                const response = await fetch('/api/union');
                 const data = await response.json();
                 console.log('Fetched members data:', data);
                 setUnionParishad(data);
@@ -31,7 +31,7 @@ export default function Form() {
 
         const fetchPos = async () => {
             try {
-                const response = await fetch('http://192.168.1.107:3000/api/pos');
+                const response = await fetch('/api/pos');
                 const data = await response.json();
                 console.log('Fetched members data:', data);
                 setPos(data);
@@ -43,7 +43,7 @@ export default function Form() {
 
         const fetchSeats = async () => {
             try {
-                const response = await fetch('http://192.168.1.107:3000/api/seat');
+                const response = await fetch('/api/seat');
                 const data = await response.json();
                 console.log('Fetched members data:', data);
                 setSeats(data);
